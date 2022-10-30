@@ -1,0 +1,135 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+dl {
+    line-height: 2;
+}
+
+header{
+    background-color: #C9CEBD;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #6C6061;
+}
+
+
+h2 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#photo {
+    width: 10%;
+    height: 10%;
+    border-radius: 25%;
+}
+
+.flex-photo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navbar, a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover {
+    font-size: large;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.linkedin {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.email {
+    width: 2.5%;
+    height: 2.5%;  
+}
+
+.phone {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.break {
+    border-top: 1px solid black;
+}
+
+.maps {
+    height: 80%;
+    width: 80%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.comp-icon img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.left {
+    background-color: #B2BCAA;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+
+.right {
+    background-color: #838E83;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-flex, a {
+    display: flex;
+    justify-content: flex-start;
+}
